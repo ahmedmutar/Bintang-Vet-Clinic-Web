@@ -1,0 +1,36 @@
+.navbar {
+  height: 90px;
+  display: flex;
+  flex-direction: row;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 80px;
+}
+
+.header-left {
+  float: left;
+  margin: 3px;
+}
+
+.header-logo {
+  width: 90px;
+}
+
+.header-right ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  color: #1680e5;
+  font-weight: bold;
+  margin: 0 0 0 0px;
+  align-items: center;
+  justify-content: flex-end;
+  height: 90px;
+}
+
+.header-right li {
+  flex-direction: column;
+  margin-left: 79px;
+}

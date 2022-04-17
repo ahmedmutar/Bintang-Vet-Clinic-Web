@@ -1,0 +1,103 @@
+.about {
+  height: 1276px;
+  background-color: #61a5c2;
+}
+
+.top-about {
+  position: relative;
+}
+
+.bg-image {
+  opacity: 0.4;
+  height: 483px;
+  width: 1440px;
+  background-size: cover;
+}
+
+.bg-img-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  position: absolute;
+  top: 130px;
+  margin: 0 450px;
+  color: white;
+}
+
+.bg-img-title h1 {
+  margin: 0px 0px;
+}
+
+.bottom-about {
+  height: 794px;
+}
+
+.vision-wrap {
+  display: flex;
+  flex-direction: row;
+}
+
+.visionTitle {
+  position: absolute;
+  background-color: white;
+  /* padding: 87px; */
+  border-radius: 170px 0 0 170px;
+  width: 900px;
+  height: 286px;
+  left: 540px;
+  top: 653px;
+}
+
+.vision-wrap h1 {
+  position: absolute;
+  width: 200px;
+  height: 38px;
+  left: 288px;
+  top: 780px;
+  color: white;
+}
+
+.visionTitle p {
+  margin: 87px 87px 87px 173px;
+  width: 607px;
+  height: 118px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #61a5c2;
+}
+
+.mission-wrap {
+  display: flex;
+  flex-direction: row;
+}
+
+.missionTitle {
+  position: absolute;
+  background-color: white;
+  /* padding: 87px; */
+  border-radius: 0 170px 170px 0;
+  width: 900px;
+  height: 286px;
+  left: 0px;
+  top: 1001px;
+}
+
+.mission-wrap h1 {
+  position: absolute;
+  width: 200px;
+  height: 38px;
+  left: 928px;
+  top: 1125px;
+  color: white;
+}
+
+.missionTitle p {
+  margin: 87px 87px 87px 173px;
+  width: 607px;
+  height: 118px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #61a5c2;
+  text-align: right;
+}
