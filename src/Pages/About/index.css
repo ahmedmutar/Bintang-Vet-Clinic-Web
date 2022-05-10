@@ -1,5 +1,6 @@
 .about {
   height: 1276px;
+  width: 1440px;
   background-color: #61a5c2;
 }
 
@@ -59,12 +60,13 @@
 }
 
 .visionTitle p {
-  margin: 87px 87px 87px 173px;
+  margin: 87px 188px 87px 173px;
   width: 607px;
-  height: 118px;
+  /* height: 118px; */
   font-size: 16px;
   font-weight: bold;
   color: #61a5c2;
+  text-align: center;
 }
 
 .mission-wrap {
@@ -93,11 +95,11 @@
 }
 
 .missionTitle p {
-  margin: 87px 87px 87px 173px;
   width: 607px;
-  height: 118px;
+  margin-left: 0;
+  margin: 42px 188px 42px 152px;
   font-size: 16px;
   font-weight: bold;
   color: #61a5c2;
-  text-align: right;
+  text-align: center;
 }

@@ -1,5 +1,5 @@
 .homepage {
-  height: 1588px;
+  height: 769px;
   background-color: #efeeee;
 }
 
@@ -12,10 +12,10 @@
 
 .greeting {
   position: absolute;
-  width: 438px;
+  width: 400px;
   height: 222px;
   left: 793px;
-  top: 293px;
+  top: 350px;
 }
 
 .greeting p {
@@ -32,10 +32,12 @@ h2 {
 
 .greeting h1 {
   color: #1680e5;
+  height: 40px;
 }
 
 .greeting button {
-  margin-left: 330px;
+  margin-left: 290px;
+  margin-top: 10px;
   width: 110px;
   height: 33px;
   border-radius: 30px;
@@ -44,6 +46,7 @@ h2 {
   font-weight: bold;
   font-size: 12px;
   border: none;
+  cursor: pointer;
 }
 
 .greeting button:hover {
@@ -56,31 +59,7 @@ h2 {
   top: 5px;
 }
 
-.review-card {
-  width: 543px;
-  height: 240px;
-  display: flex;
-  flex-direction: row;
-  font-size: 14px;
-  text-align: left;
-  border: 1px solid #1680e5;
-  border-radius: 20px;
-  background-color: white;
-  align-items: center;
-}
-
-.cust-pict img {
-  border-radius: 20px;
-  margin: 0 0 0 45px;
-  border: #1680e5 solid 1px;
-}
-
-/* .cust-review {
-  margin-right: 45px;
-  margin-left: 15px;
-} */
-
-.cust-review p,
-h4 {
-  margin: 0 45px 0 15px;
+.btn-greeting-link {
+  color: white;
+  text-decoration: none;
 }

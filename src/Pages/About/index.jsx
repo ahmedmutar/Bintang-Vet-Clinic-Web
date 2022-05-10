@@ -21,13 +21,9 @@ export const About = () => {
             <h1>VISION</h1>
             <div className="visionTitle">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum
+                Memberikan kebahagiaan bagi semua jenis hewan, melalui pelayanan
+                kesehatan hewan yang dilakukan oleh tenaga medis terbaik dengan
+                ketulusan dan kasih sayang.
               </p>
             </div>
           </div>
@@ -35,13 +31,16 @@ export const About = () => {
             <h1>MISSION</h1>
             <div className="missionTitle">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum
+                Memberikan pelayanan pengobatan yang berorientasi pada
+                keselamatan pasien dan kepuasan pelanggan
+              </p>
+              <p>
+                Menyediakan berbagai kebutuhan hidup hewan guna menaikkan
+                kesejahteraan hewan.
+              </p>
+              <p>
+                Melaksanakan pengabdian pada hewan terlantar yang membutuhkan
+                perawatan dan pengobatan.
               </p>
             </div>
           </div>

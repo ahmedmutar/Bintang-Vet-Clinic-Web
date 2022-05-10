@@ -1,14 +1,14 @@
-.container {
-  width: 1440px;
-  margin: 0 80px;
-}
-
 .footer {
   background-color: black;
   color: white;
   height: 369px;
   display: flex;
   flex-direction: row;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 80px;
 }
 
 .top-wrapper {
@@ -31,6 +31,9 @@
   margin-right: 81px;
 }
 
+.footer-right {
+  text-align: center;
+}
 .footer-right p {
   margin: 0;
   font-weight: lighter;
@@ -50,6 +53,7 @@
 
 .footer-copyright p {
   margin: 5px 0;
+  text-align: center;
 }
 
 .footer-logo {

@@ -33,4 +33,14 @@
 .header-right li {
   flex-direction: column;
   margin-left: 79px;
+  cursor: pointer;
+}
+
+.header-right li:hover {
+  color: #64b3fd;
+}
+
+.header-right {
+  color: #1680e5;
+  text-decoration: none;
 }
