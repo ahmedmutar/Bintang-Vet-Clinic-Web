@@ -7,11 +7,11 @@
 }
 .top-left-cu {
   margin-top: 60px;
-  margin-left: 119px;
+  margin-left: 80px;
 }
 .top-left-cu h2 {
   border-bottom: 5px rgb(255, 255, 255) solid;
-  width: 100px;
+  width: 150px;
 }
 
 .top-cu {
@@ -26,13 +26,19 @@
 .socmed-cu {
   display: flex;
   flex-direction: column;
-  align-items: left;
+  align-items: center;
   margin-top: 20px;
 }
 
-.socmed-cu p {
+.socmed-cu a {
   font-size: 16px;
-  margin-top: 10px;
+  margin: 5px 0;
+  color: white;
+}
+.socmed-card-cu {
+  display: flex;
+  width: 204px;
+  justify-content: space-between;
 }
 
 .bottom-cu {
@@ -81,4 +87,56 @@
   border: none;
   border-radius: 44px;
   font-size: 17px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 200px) and (max-width: 768px) {
+  .top-cu {
+    height: 300px;
+  }
+  .top-right-cu img {
+    width: 384px;
+    height: 300px;
+    object-fit: cover;
+  }
+
+  .bottom-cu {
+    height: 600px;
+  }
+
+  .address-contents {
+    gap: 42px;
+    margin: 70px 30px;
+  }
+
+  .address-card {
+    width: 270px;
+    height: 150px;
+  }
+
+  .address-card h1 {
+    height: 43px;
+    font-size: 16px;
+    text-align: center;
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+
+  .address-card p {
+    margin-left: 0px;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .address-card button {
+    width: 80px;
+    height: 36px;
+    margin: 10px 90px;
+    color: white;
+    background-color: #61a5c2;
+    border: none;
+    border-radius: 44px;
+    font-size: 10px;
+    font-weight: bold;
+  }
 }

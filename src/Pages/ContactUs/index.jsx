@@ -11,10 +11,19 @@ export const ContactUs = () => {
           <h1>CONTACT US</h1>
           <h2></h2>
           <div className="socmed-cu">
-            <FaInstagram style={{ fontSize: "28px" }} />
-            <p>@bintang_vet</p>
-            <FaWhatsapp style={{ fontSize: "28px" }} />
-            <p>Bintang Vet Bintaro (Petshop & Dokter Hewan)</p>
+            <div className="socmed-card-cu">
+              <a href="https://www.instagram.com/bintang_vet/">
+                <FaInstagram style={{ fontSize: "28px" }} />
+              </a>
+              <a href="https://www.instagram.com/bintang_vet/">@bintang_vet</a>
+            </div>
+
+            <div className="socmed-card-cu">
+              <a href="https://wa.me/085779867017">
+                <FaWhatsapp style={{ fontSize: "28px" }} />
+              </a>
+              <a href="https://wa.me/085779867017">Bintang Vet Bintaro</a>
+            </div>
           </div>
         </div>
         <div className="top-right-cu">
@@ -27,30 +36,41 @@ export const ContactUs = () => {
           <div className="address-card">
             <h1>BINTANG VET CLINIC (GLORY PETSHOP)</h1>
             <p>0811 188 020</p>
-            <button type="submit">Get Direction</button>
+            <a href="https://goo.gl/maps/YnAwAdr3nSFb4G5w8">
+              <button type="submit">Get Direction</button>
+            </a>
           </div>
 
           <div className="address-card">
             <h1>GLORY PETSHOP ALAM SUTERA</h1>
             <p>0811 177 752</p>
-            <button type="submit">Get Direction</button>
+            <a href="https://goo.gl/maps/BJt1L8s9wjYPyVMb6">
+              <button type="submit">Get Direction</button>
+            </a>
           </div>
 
           <div className="address-card">
             <h1>Bintang Vet Bintaro (Petshop & Dokter Hewan)</h1>
             <p>0857 7986 7017</p>
-            <button type="submit">Get Direction</button>
+            <a href="https://goo.gl/maps/4np5DPawPTLxomit5">
+              <button type="submit">Get Direction</button>
+            </a>
           </div>
 
           <div className="address-card">
             <h1>Bintang Vet Clinic ( Deku Kebagusan )</h1>
             <p>0815 1113 0293</p>
-            <button type="submit">Get Direction</button>
+            <a href="https://goo.gl/maps/e6oW7Fz9P57d6CHM6">
+              <button type="submit">Get Direction</button>
+            </a>
           </div>
 
           <div className="address-card">
             <h1>Deku Petshop & Pet Care Khafi</h1>
-            <button type="submit">Get Direction</button>
+            <p>-</p>
+            <a href="https://goo.gl/maps/SfiXJNJgavujY4vf7">
+              <button type="submit">Get Direction</button>
+            </a>
           </div>
         </div>
       </div>

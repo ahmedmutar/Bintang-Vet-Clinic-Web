@@ -8,7 +8,9 @@ const Navbar = () => {
     <div className="navbar">
       <div className="container">
         <div className="header-left">
-          <img src={logo} className="header-logo" alt="Bintang Vet Clinic" />
+          <Link to="/">
+            <img src={logo} className="header-logo" alt="Bintang Vet Clinic" />
+          </Link>
         </div>
         <div className="header-right">
           <ul>

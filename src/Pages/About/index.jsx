@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../../component/images/logo_cropped.png";
 import "./index.css";
-import background from "../../component/images/illustration4.jpg";
+import background from "../../component/images/header-about-us.png";
 
 export const About = () => {
   return (

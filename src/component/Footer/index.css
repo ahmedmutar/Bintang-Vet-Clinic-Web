@@ -20,6 +20,10 @@
   border-bottom: 1px white solid;
 }
 
+.footer-left {
+  color: white;
+  text-decoration: none;
+}
 .footer ul {
   list-style: none;
   display: flex;
@@ -29,6 +33,7 @@
 
 .footer li {
   margin-right: 81px;
+  cursor: pointer;
 }
 
 .footer-right {
@@ -51,6 +56,9 @@
   margin-top: 34px;
 }
 
+.bottom-logo a {
+  color: white;
+}
 .footer-copyright p {
   margin: 5px 0;
   text-align: center;
@@ -58,4 +66,19 @@
 
 .footer-logo {
   width: 100px;
+}
+
+@media screen and (min-width: 200px) and (max-width: 768px) {
+  .footer {
+    height: 300px;
+  }
+  .footer-left {
+    text-align: center;
+  }
+
+  .footer li {
+    margin: 0px 30px;
+    text-align: center;
+    align-items: center;
+  }
 }

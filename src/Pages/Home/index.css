@@ -1,5 +1,5 @@
 .homepage {
-  height: 769px;
+  height: 100%;
   background-color: #efeeee;
 }
 
@@ -62,4 +62,31 @@ h2 {
 .btn-greeting-link {
   color: white;
   text-decoration: none;
+}
+
+@media screen and (min-width: 200px) and (max-width: 768px) {
+  .homepage {
+    height: 815px;
+  }
+
+  .greeting {
+    position: absolute;
+    width: 768px;
+    height: 260px;
+    left: 0px;
+    top: 650px;
+    background-color: #ffffff;
+  }
+
+  .greeting-title {
+    margin: 30px 50px;
+  }
+
+  .greeting button {
+    margin-left: 50px;
+    margin-top: 0;
+  }
+  .home-pict {
+    width: 768px;
+  }
 }

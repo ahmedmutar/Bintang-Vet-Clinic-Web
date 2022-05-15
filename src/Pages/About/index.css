@@ -60,9 +60,8 @@
 }
 
 .visionTitle p {
-  margin: 87px 188px 87px 173px;
+  margin: 113px 188px 110px 173px;
   width: 607px;
-  /* height: 118px; */
   font-size: 16px;
   font-weight: bold;
   color: #61a5c2;
@@ -102,4 +101,81 @@
   font-weight: bold;
   color: #61a5c2;
   text-align: center;
+}
+
+@media screen and (min-width: 200px) and (max-width: 768px) {
+  .about {
+    height: 1090px;
+    width: 768px;
+    background-color: #61a5c2;
+  }
+
+  .bg-image {
+    opacity: 0.4;
+    height: 350px;
+    width: 768px;
+    background-size: cover;
+  }
+
+  .bg-img-title {
+    top: 50px;
+    margin: 0 184px;
+  }
+
+  .bg-img-title h1 {
+    margin: 0px 0px;
+    font-size: 30px;
+  }
+
+  .vision-wrap {
+    width: 768px;
+  }
+
+  .vision-wrap h1 {
+    position: absolute;
+    width: 200px;
+    height: 38px;
+    left: 288px;
+    top: 460px;
+    color: white;
+    text-align: center;
+  }
+
+  .visionTitle {
+    border-radius: 170px 170px 170px 170px;
+    width: 500px;
+    height: 200px;
+    left: 0px;
+    top: 540px;
+    margin: 0px 134px;
+  }
+
+  .visionTitle p {
+    margin: 57px 50px;
+    width: 400px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .mission-wrap h1 {
+    position: absolute;
+    width: 200px;
+    height: 38px;
+    left: 288px;
+    top: 750px;
+    text-align: center;
+  }
+
+  .missionTitle {
+    border-radius: 170px 170px 170px 170px;
+    width: 700px;
+    height: 286px;
+    margin: 0px 44px;
+    top: 830px;
+  }
+
+  .missionTitle p {
+    width: 500px;
+    margin-left: 0;
+    margin: 42px 100px;
+  }
 }
