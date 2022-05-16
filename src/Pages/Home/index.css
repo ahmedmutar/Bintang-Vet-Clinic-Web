@@ -90,3 +90,30 @@ h2 {
     width: 768px;
   }
 }
+
+@media screen and (min-width: 200px) and (max-width: 390px) {
+  .homepage {
+    height: 650px;
+  }
+
+  .greeting {
+    position: absolute;
+    width: 390px;
+    height: 330px;
+    left: 0px;
+    top: 490px;
+    background-color: #ffffff;
+  }
+
+  .greeting-title {
+    margin: 30px 50px;
+  }
+
+  .greeting button {
+    margin-left: 50px;
+    margin-top: 0;
+  }
+  .home-pict {
+    width: 390px;
+  }
+}

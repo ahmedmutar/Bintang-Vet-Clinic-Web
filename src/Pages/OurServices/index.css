@@ -71,3 +71,33 @@
     width: 180px;
   }
 }
+
+@media screen and (min-width: 200px) and (max-width: 390px) {
+  .header-title-srv {
+    width: 390px;
+    height: 150px;
+  }
+
+  .bg-header {
+    height: 150px;
+    width: 390px;
+    object-fit: cover;
+  }
+
+  .contents-srv {
+    padding: 0px 0;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 0px;
+    column-gap: 0px;
+    height: 1600px;
+  }
+
+  .content-srv {
+    font-size: 16px;
+  }
+
+  .content-srv img {
+    height: 150px;
+    width: 150px;
+  }
+}

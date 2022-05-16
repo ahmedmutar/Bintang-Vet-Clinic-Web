@@ -140,3 +140,63 @@
     font-weight: bold;
   }
 }
+
+@media screen and (min-width: 200px) and (max-width: 390px) {
+  .top-cu {
+    height: 250px;
+    width: 390px;
+  }
+
+  .top-right-cu img {
+    width: 390px;
+    height: 300px;
+    object-fit: cover;
+    position: absolute;
+  }
+
+  .top-left-cu {
+    position: relative;
+    margin: auto auto;
+  }
+
+  .bottom-cu {
+    height: 840px;
+  }
+
+  .address-contents {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    margin: 30px 30px;
+  }
+
+  .address-card {
+    width: 270px;
+    height: 150px;
+  }
+
+  .address-card h1 {
+    height: 43px;
+    font-size: 16px;
+    text-align: center;
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+
+  .address-card p {
+    margin-left: 0px;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .address-card button {
+    width: 80px;
+    height: 36px;
+    margin: 10px 90px;
+    color: white;
+    background-color: #61a5c2;
+    border: none;
+    border-radius: 44px;
+    font-size: 10px;
+    font-weight: bold;
+  }
+}

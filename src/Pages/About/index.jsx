@@ -11,7 +11,13 @@ export const About = () => {
           <div className="top-about-title">
             <img src={background} alt="vet clinic" class="bg-image" />
             <div className="bg-img-title">
-              <img src={logo} alt="vet clinic" width={400} height={214} />
+              <img
+                src={logo}
+                alt="vet clinic"
+                width={400}
+                height={214}
+                className="logo-image"
+              />
               <h1> OUR VISION AND MISSION</h1>
             </div>
           </div>
