@@ -1,6 +1,5 @@
 .about {
-  height: 1276px;
-  width: 1440px;
+  height: 1700px;
   background-color: #61a5c2;
 }
 
@@ -11,7 +10,7 @@
 .bg-image {
   opacity: 0.4;
   height: 483px;
-  width: 1440px;
+  width: 100%;
   background-size: cover;
 }
 
@@ -41,12 +40,11 @@
 
 .visionTitle {
   position: absolute;
-  background-color: white;
-  /* padding: 87px; */
+  background-color: rgb(255, 255, 255);
   border-radius: 170px 0 0 170px;
   width: 900px;
   height: 286px;
-  left: 540px;
+  left: 451px;
   top: 653px;
 }
 
@@ -89,7 +87,7 @@
   width: 200px;
   height: 38px;
   left: 928px;
-  top: 1125px;
+  top: 1110px;
   color: white;
 }
 
@@ -103,56 +101,86 @@
   text-align: center;
 }
 
-@media screen and (min-width: 200px) and (max-width: 768px) {
+.ourteam-wrapper {
+  text-align: center;
+  color: white;
+}
+
+.ourteam-wrapper h1 {
+  border-bottom: white solid 5px;
+  margin: 0 150px;
+}
+.ourteam-wrapper li {
+  list-style: none;
+  margin: 10px 0px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 391px) and (max-width: 414px) {
   .about {
-    height: 1090px;
-    width: 768px;
+    height: max-content;
+    width: 100%;
     background-color: #61a5c2;
+  }
+  .bottom-about {
+    height: 670px;
   }
 
   .bg-image {
     opacity: 0.4;
-    height: 350px;
-    width: 768px;
+    height: 250px;
+    width: 100%;
     background-size: cover;
   }
 
+  .logo-image {
+    width: 200px;
+    height: 107px;
+  }
+
   .bg-img-title {
-    top: 50px;
-    margin: 0 184px;
+    top: 10px;
+    margin: 50px 0px;
+    width: 414px;
   }
 
   .bg-img-title h1 {
     margin: 0px 0px;
-    font-size: 30px;
+    font-size: 20px;
+  }
+
+  .bottom-about {
+    width: 100%;
   }
 
   .vision-wrap {
-    width: 768px;
+    width: 100px;
   }
 
   .vision-wrap h1 {
     position: absolute;
     width: 200px;
     height: 38px;
-    left: 288px;
-    top: 460px;
+    left: 0px;
+    top: 440px;
+    margin: 0 107px;
     color: white;
     text-align: center;
   }
 
   .visionTitle {
-    border-radius: 170px 170px 170px 170px;
-    width: 500px;
+    border-radius: 0px;
+    width: 100%;
     height: 200px;
     left: 0px;
-    top: 540px;
-    margin: 0px 134px;
+    top: 500px;
+    margin: 0px 0px;
   }
 
   .visionTitle p {
-    margin: 57px 50px;
-    width: 400px;
+    margin: 57px 0px;
+    width: 100%;
     font-size: 16px;
     font-weight: bold;
   }
@@ -160,23 +188,42 @@
     position: absolute;
     width: 200px;
     height: 38px;
-    left: 288px;
-    top: 750px;
+    left: 0px;
+    top: 720px;
+    margin: 0 107px;
+    color: white;
     text-align: center;
   }
 
   .missionTitle {
-    border-radius: 170px 170px 170px 170px;
-    width: 700px;
-    height: 286px;
-    margin: 0px 44px;
-    top: 830px;
+    border-radius: 0px;
+    width: 100%;
+    height: 260px;
+    margin: 0px 0px;
+    top: 780px;
   }
 
   .missionTitle p {
-    width: 500px;
-    margin-left: 0;
-    margin: 42px 100px;
+    margin: 30px 0px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .ourteam-wrapper {
+    height: 430px;
+  }
+  .ourteam-wrapper h1 {
+    width: 100%;
+    margin: 0px;
+  }
+
+  .ourteam-wrapper li {
+    font-size: 16px;
+    padding: 0 10px;
+  }
+
+  .ourteam-wrapper ul {
+    padding: 0px;
   }
 }
 

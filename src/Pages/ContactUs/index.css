@@ -63,6 +63,11 @@
   margin: 0 auto;
 }
 
+.address-card a {
+  text-decoration: none;
+  color: blue;
+}
+
 .address-card h1 {
   font-size: 20px;
   margin-left: 52px;

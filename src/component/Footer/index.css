@@ -7,7 +7,7 @@
 }
 
 .container {
-  width: 1440px;
+  width: 100%;
   margin: 0 80px;
 }
 
@@ -80,6 +80,39 @@
     margin: 0px 30px;
     text-align: center;
     align-items: center;
+  }
+}
+@media screen and (min-width: 391px) and (max-width: 414px) {
+  .container {
+    width: 414px;
+    margin: 0 15px;
+  }
+
+  .footer {
+    height: 340px;
+  }
+
+  .top-wrapper {
+    margin-top: 40px;
+    flex-direction: column-reverse;
+  }
+  .footer ul {
+    flex-direction: column;
+    width: 100%;
+    margin: 0px 0px;
+    font-size: 12px;
+  }
+  .footer li {
+    margin: 5px;
+  }
+  .top-wrapper {
+    height: 200px;
+  }
+  .footer-logo {
+    width: 80px;
+  }
+  .bottom-logo {
+    margin-top: 15px;
   }
 }
 

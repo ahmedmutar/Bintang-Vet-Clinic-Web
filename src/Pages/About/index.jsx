@@ -51,6 +51,30 @@ export const About = () => {
             </div>
           </div>
         </div>
+        <div className="ourteam-wrapper">
+          <h1>OUR TEAM</h1>
+          <ul>
+            <li>Drh. Pribadi Muhammad Yulianto - Penanggung Jawab Pusat</li>
+            <li>
+              Drh. Amara Lintang Pagati - Penanggung Jawab Bintang Vet Clinic
+              Bintaro
+            </li>
+            <li>
+              Drh. Haniyah Putri - Penanggung Jawab Bintang Vet Clinic Kebagusan
+            </li>
+            <li>
+              Drh. Afnan Zubair - Penanggung Jawab Bintang Vet Clinic Khafi
+            </li>
+            <li>
+              Drh. Nur Rachmatika Penanggung Jawab Bintang Vet Clinic Tanjung
+              Duren
+            </li>
+            <li>
+              Drh. Ade Bagus Verry Penanggung Jawab Bintang Vet Clinic Alam
+              Sutera
+            </li>
+          </ul>
+        </div>
       </div>
     </>
   );
