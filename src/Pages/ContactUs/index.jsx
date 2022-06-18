@@ -19,10 +19,10 @@ export const ContactUs = () => {
             </div>
 
             <div className="socmed-card-cu">
-              <a href="https://wa.me/085779867017">
+              <a href="https://wa.me/6285779867017">
                 <FaWhatsapp style={{ fontSize: "28px" }} />
               </a>
-              <a href="https://wa.me/085779867017">Bintang Vet Bintaro</a>
+              <a href="https://wa.me/6285779867017">Bintang Vet Bintaro</a>
             </div>
           </div>
         </div>
@@ -36,7 +36,7 @@ export const ContactUs = () => {
           <div className="address-card">
             <h1>Bintang Vet Clinic Tj. Duren</h1>
             <p>
-              <a href="https://wa.me/0811188020">
+              <a href="https://wa.me/62811188020">
                 <FaWhatsapp style={{ fontSize: "16px" }} />
                 <span> </span>0811 188 020
               </a>
@@ -49,7 +49,7 @@ export const ContactUs = () => {
           <div className="address-card">
             <h1>Bintang Vet Clinic Alam Sutera</h1>
             <p>
-              <a href="https://wa.me/0811177752">
+              <a href="https://wa.me/62811177752">
                 <FaWhatsapp style={{ fontSize: "16px" }} />
                 <span> </span>0811 177 752
               </a>
@@ -62,7 +62,7 @@ export const ContactUs = () => {
           <div className="address-card">
             <h1>Bintang Vet Bintaro</h1>
             <p>
-              <a href="https://wa.me/085779867017">
+              <a href="https://wa.me/6285779867017">
                 <FaWhatsapp style={{ fontSize: "16px" }} />
                 <span> </span>0857 7986 7017
               </a>
@@ -75,7 +75,7 @@ export const ContactUs = () => {
           <div className="address-card">
             <h1>Bintang Vet Clinic Kebagusan</h1>
             <p>
-              <a href="https://wa.me/081511130293">
+              <a href="https://wa.me/6281511130293">
                 <FaWhatsapp style={{ fontSize: "16px" }} />
                 <span> </span>0815 1113 0293
               </a>

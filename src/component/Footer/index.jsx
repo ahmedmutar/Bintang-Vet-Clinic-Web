@@ -48,7 +48,7 @@ export const Footer = () => {
             <a href="https://www.instagram.com/bintang_vet/">
               <FaInstagram style={{ fontSize: "38px" }} />
             </a>
-            <a href="https://wa.me/085779867017">
+            <a href="https://wa.me/6285779867017">
               <FaWhatsapp style={{ fontSize: "38px" }} />
             </a>
           </div>
